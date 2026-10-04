@@ -1,1 +1,0 @@
-# Quadra_maharashtra_round
