@@ -1,0 +1,7 @@
+# Example image manifest — replace with real dataset paths.
+# label: 1 = manipulated/suspicious, 0 = authentic
+path,label
+data/raw/images/authentic_001.jpg,0
+data/raw/images/authentic_002.png,0
+data/raw/images/manipulated_001.jpg,1
+data/raw/images/manipulated_002.png,1

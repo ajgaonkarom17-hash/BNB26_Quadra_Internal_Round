@@ -1,0 +1,15 @@
+{
+  "name": "trustlayer-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "TrustLayer frontend (optional Vite dev setup). The prototype UI also runs with zero build via FastAPI static serving.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}

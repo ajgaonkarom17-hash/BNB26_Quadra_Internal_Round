@@ -1,0 +1,9 @@
+# Example multimodal manifest for fusion training / evaluation.
+# Only *_path and overall_label are required; other columns are optional.
+# overall_label: 0 = authentic, 1 = suspicious, 2 = inconclusive
+# cross_modal_label: 1 = consistent, 0 = inconsistent
+# split: "known" or "unseen" (used by training/evaluate.py)
+# manipulation: free-text family name, e.g. face_swap, audio_spoof, none
+investigation_id,image_path,video_path,audio_path,document_path,image_label,video_label,audio_label,document_label,overall_label,cross_modal_label,split,manipulation
+demo_001,data/raw/event/image.jpg,data/raw/event/video.mp4,data/raw/event/audio.wav,data/raw/event/report.pdf,0,0,0,0,0,1,known,none
+demo_002,data/raw/event2/image.jpg,data/raw/event2/video.mp4,data/raw/event2/audio.wav,data/raw/event2/report.pdf,0,1,0,0,1,0,unseen,face_swap

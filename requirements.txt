@@ -1,0 +1,16 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic>=2.6
+numpy>=1.26
+pandas>=2.1
+Pillow>=10.2
+opencv-python>=4.9
+# --- Optional (analyzers degrade gracefully if these are missing) ---
+# PyMuPDF>=1.24          # better PDF text extraction
+# soundfile>=0.12        # MP3/FLAC audio decoding
+# librosa>=0.10          # richer audio features
+# pytesseract>=0.3.10    # OCR text burned into images (needs Tesseract binary)
+# scikit-learn>=1.4      # metrics for training/evaluation
+# torch>=2.2             # optional deep encoders in MODEL mode
+# transformers>=4.40     # optional pretrained encoders
